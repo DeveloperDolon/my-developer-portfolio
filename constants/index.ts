@@ -29,12 +29,12 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "Redux",
-      Image: "/redux.png",
-      width: 80,
-      height: 80,
-    },
+    // {
+    //   skill_name: "Redux",
+    //   Image: "/redux.png",
+    //   width: 80,
+    //   height: 80,
+    // },
     {
       skill_name: "React Query",
       Image: "/reactquery.png",
@@ -134,12 +134,12 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "Redux",
-      Image: "/redux.png",
-      width: 80,
-      height: 80,
-    },
+    // {
+    //   skill_name: "Redux",
+    //   Image: "/redux.png",
+    //   width: 80,
+    //   height: 80,
+    // },
     {
       skill_name: "React Query",
       Image: "/reactquery.png",
@@ -185,51 +185,51 @@ export const Skill_data = [
       width: 55,
       height: 55,
     },
-    {
-      skill_name: "Postger SQL",
-      Image: "/postger.png",
-      width: 70,
-      height: 70,
-    },
+    // {
+    //   skill_name: "Postger SQL",
+    //   Image: "/postger.png",
+    //   width: 70,
+    //   height: 70,
+    // },
     {
       skill_name: "My SQL",
       Image: "/mysql.png",
       width: 70,
       height: 70,
     },
-    {
-      skill_name: "Prisma",
-      Image: "/prisma.webp",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
-      width: 80,
-      height: 80,
-    },
+    // {
+    //   skill_name: "Prisma",
+    //   Image: "/prisma.webp",
+    //   width: 70,
+    //   height: 70,
+    // },
+    // {
+    //   skill_name: "Graphql",
+    //   Image: "/graphql.png",
+    //   width: 80,
+    //   height: 80,
+    // },
   ];
   
   export const Full_stack = [
-    {
-      skill_name: "React Native",
-      Image: "/ReactNative .png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Docker",
-      Image: "/docker.webp",
-      width: 70,
-      height: 70,
-    },
+    // {
+    //   skill_name: "React Native",
+    //   Image: "/ReactNative .png",
+    //   width: 70,
+    //   height: 70,
+    // },
+    // {
+    //   skill_name: "Tauri",
+    //   Image: "/tauri.svg",
+    //   width: 70,
+    //   height: 70,
+    // },
+    // {
+    //   skill_name: "Docker",
+    //   Image: "/docker.webp",
+    //   width: 70,
+    //   height: 70,
+    // },
   
     {
       skill_name: "Figma",
