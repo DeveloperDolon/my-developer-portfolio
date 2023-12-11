@@ -11,6 +11,8 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
 const HeroContent = () => {
+
+
   return (
     <motion.div
       initial="hidden"
@@ -52,8 +54,11 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href={"https://drive.google.com/uc?id=1H22FCVPjFvye6KoGJIxEIUSavr-XAezu&export=download"}
+          download
+          rel="noreferrer"
         >
-          Learn More!
+          Download Resume
         </motion.a>
       </div>
 
