@@ -16,14 +16,14 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20] relative"
+      className="flex flex-row items-center justify-center sm:px-20 px-5 mt-40 w-full z-[20] relative"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box2 button-primary overflow-hidden border border-[#7042f88b] opacity-[0.2] shadow-2xl shadow-[#fafafa]"
         >
-          <Image src="/sb.png" alt="work icons" height={300} width={300} />
+          <Image src="/sb.png" alt="work icons" className="sm:w-[300px] w-[200px]" height={300} width={300} />
         </motion.div>
 
         {/* <motion.div
@@ -65,7 +65,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-3 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-3 md:text-6xl text-3xl font-bold text-white sm:max-w-[600px] w-auto h-auto"
         >
           <span>
             Providing
@@ -78,7 +78,7 @@ const HeroContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-3 max-w-[600px]"
+          className="text-lg text-gray-400 my-3 sm:max-w-[600px]"
         >
           I&apos;m a Full Stack Software Engineer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
