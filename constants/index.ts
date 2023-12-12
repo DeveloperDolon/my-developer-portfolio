@@ -82,16 +82,19 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
-      src: "/instagram.svg",
+      name: "Git Hub",
+      src: "/gitwhite.png",
+      link: "https://github.com/DeveloperDolon"
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
+      name: "LinkedIn",
+      src: "/linkedin.png",
+      link: "https://www.linkedin.com/in/dolon-roy-5a4abb237/"
     },
     {
       name: "Instagram",
       src: "/discord.svg",
+      link: ""
     },
   ];
   

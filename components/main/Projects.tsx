@@ -15,17 +15,21 @@ const Projects = () => {
           src="/One.png"
           title="Modern Real Estate Agency Management Project"
           description="Real estate organization management web site. The website provides a personalized dashboard for users, agents, and administrators."
+          project_link={"https://real-estate-project-1497b.web.app/"}
         />
         <ProjectCard
           src="/tow.png"
           title="Electronics Shop Project"
           description="Electronics devices shop web site. Shop with significant brands product."
+          project_link={"https://assignment-ten-cacea.web.app/"}
         />
         <ProjectCard
           src="/three.png"
           title="Free Food Sharing Project"
           description="Free food sharing web site. Connecting Communities through Free Food Distribution 🍲🌍"
+          project_link={"https://assignment-11-4dcde.web.app/"}
         />
+
       </div>
     </div>
   );

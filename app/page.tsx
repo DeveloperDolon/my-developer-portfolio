@@ -1,3 +1,4 @@
+import ContactInfo from "@/components/main/ContactInfo";
 import Education from "@/components/main/Education";
 import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
@@ -13,6 +14,7 @@ export default function Home() {
         <Education/>
         <Encryption />
         <Projects />
+        <ContactInfo/>
       </div>
     </main>
   );
